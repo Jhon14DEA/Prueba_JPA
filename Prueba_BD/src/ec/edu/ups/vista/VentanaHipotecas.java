@@ -225,7 +225,7 @@ public class VentanaHipotecas extends javax.swing.JPanel {
 
         jLabel3.setText("Id Casa ");
 
-        jLabel4.setText("Valor  Casa");
+        jLabel4.setText("Valor a Pedir");
 
         jLabel5.setText("Interes ");
 

@@ -30,7 +30,7 @@ public class ControladorPrincipal {
     private PersonaDAO personaDAO;
     private CasaDAO casaDAO;
     private HipotecaDAO hipotecaDAO;
-    private BancoControlador bancoControlador;
+    private ControladorBanco bancoControlador;
     private EntityManager em;
 
     public ControladorPrincipal() {
@@ -38,7 +38,7 @@ public class ControladorPrincipal {
         personaDAO = new PersonaDAO(em);
         casaDAO = new CasaDAO(em);
         hipotecaDAO = new HipotecaDAO(em);
-        bancoControlador = new BancoControlador(em);
+        bancoControlador = new ControladorBanco(em);
 
     }
     //--------------------------PERSONA-----------------------------------------//
@@ -131,11 +131,11 @@ public class ControladorPrincipal {
         this.hipotecaDAO = hipotecaDAO;
     }
 
-    public BancoControlador getBancoControlador() {
+    public ControladorBanco getBancoControlador() {
         return bancoControlador;
     }
 
-    public void setBancoControlador(BancoControlador bancoControlador) {
+    public void setBancoControlador(ControladorBanco bancoControlador) {
         this.bancoControlador = bancoControlador;
     }
 

@@ -14,8 +14,8 @@ import ec.edu.ups.modelo.Banco;
  *
  * @author ASUS
  */
-public class BancoControlador extends AbstractControlador<Banco>{
-      public BancoControlador(EntityManager em){
+public class ControladorBanco extends AbstractControlador<Banco>{
+      public ControladorBanco(EntityManager em){
       super(Banco.class, em);
 }    
 

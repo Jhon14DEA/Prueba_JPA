@@ -15,7 +15,7 @@ import javax.persistence.Query;
 import ec.edu.ups.modelo.Persona;
 
 /**
- *
+ * 
  * @author ASUS
  */
 public class PersonaDAO extends AbstractControlador<Persona> {
